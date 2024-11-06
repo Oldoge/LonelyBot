@@ -46,7 +46,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 # Main function to set up the bot
 def main():
     # Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your actual bot token
-    bot_token = "8076267464:AAE1BizkizmC4YUpJQYvlJVfGh4u4yDZuAs"
+    bot_token = "TOKEN"
 
     # Set up the application
     application = ApplicationBuilder().token(bot_token).build()
